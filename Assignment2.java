@@ -22,9 +22,9 @@ class MyClass {
         //run if score1 is the greatist score
         if (score1 > score2 && score1 > score3 && score1 > score4) {
             int aScore = score1;
-            int bScore = score1 - 20;
-            int cScore = score1 - 30;
-            int dScore = score1 - 40;
+            int bScore = aScore - 10;
+            int cScore = bScore - 10;
+            int dScore = cScore - 10;
 
             System.out.println("Student 1: " + score1 + " = A");
 
